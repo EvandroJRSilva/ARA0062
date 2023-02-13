@@ -36,55 +36,69 @@ Repositório para aulas e demais materiais da disciplina ARA0062 da Faculdade Es
 
 ## **Datas**
 
+Turmas: 1001, 1002 e 3045
+
+<br />
+
 Fevereivo
 
-| Seg | Ter | Qua | Qui | Sex |
-|---|---|---|---|---|
-| | | 01 | 02 | 03 |
-| 06 | 07 | 08 | 09 | 10 |
-| 13 | 14 | 15 | 16 | 17 |
-| <span style="color:cornflowerblue">20</span> | <span style="color:cornflowerblue">21</span> | <span style="color:cornflowerblue">22</span> | <span style="color:limegreen">23</span> | 24 |
+| Seg | Ter | Qua | Qui | Sex | Sab |
+|---|---|---|---|---|---|
+| | | 01 | 02 | 03 | 04 |
+| 06 | 07 | 08 | 09 | 10 | 11 |
+| 13 | 14 | 15 | 16 | 17 | 18 |
+| <span style="color:cornflowerblue">20</span> | <span style="color:cornflowerblue">21</span> | <span style="color:cornflowerblue">22</span> | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> |
 | 27 | <span style="color:limegreen">28</span> | | | |
+
+<br />
 
 Março
 
-| Seg | Ter | Qua | Qui | Sex |
-|---|---|---|---|---|
-| | | 01 | <span style="color:limegreen">02</span> | 03 |
-| 06 | <span style="color:limegreen">07</span> | 08 | <span style="color:limegreen">09</span> | 10 |
-| 13 | <span style="color:limegreen">14</span> | 15 | <span style="color:limegreen">16</span> | 17 |
-| 20 | <span style="color:limegreen">21</span> | 22 | <span style="color:limegreen">23</span> | 24 |
-| 27 | <span style="color:limegreen">28</span> | 29 | <span style="color:limegreen">30</span> | 31 |
+| Seg | Ter | Qua | Qui | Sex | Sab |
+|---|---|---|---|---|---|
+| | | 01 | <span style="color:limegreen">02</span> | 03 | <span style="color:limegreen">04</span> |
+| 06 | <span style="color:limegreen">07</span> | 08 | <span style="color:limegreen">09</span> | 10 | <span style="color:limegreen">11</span> |
+| 13 | <span style="color:limegreen">14</span> | 15 | <span style="color:limegreen">16</span> | 17 | <span style="color:limegreen">18</span> |
+| 20 | <span style="color:limegreen">21</span> | 22 | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> |
+| 27 | <span style="color:limegreen">28</span> | 29 | <span style="color:limegreen">30</span> | 31 | |
+
+<br />
 
 Abril
 
-| Seg | Ter | Qua | Qui | Sex |
-|---|---|---|---|---|
-| 03 | <span style="color:limegreen">04</span> | 05 | <span style="color:limegreen">06</span> | <span style="color:cornflowerblue">07</span> |
-| 10 | <span style="color:limegreen">11</span> | 12 | <span style="color:limegreen">13</span> | 14 |
-| 17 | <span style="color:limegreen">18</span> | 19 | <span style="color:limegreen">20</span> | <span style="color:cornflowerblue">21</span> |
-| 24 | <span style="color:limegreen">25</span> | 26 | <span style="color:limegreen">27</span> | 28 |
+| Seg | Ter | Qua | Qui | Sex | Sab |
+|---|---|---|---|---|---|
+| | | | | | <span style="color:limegreen">01</span> |
+| 03 | <span style="color:limegreen">04</span> | 05 | <span style="color:limegreen">06</span> | <span style="color:cornflowerblue">07</span> | <span style="color:cornflowerblue">08</span> |
+| 10 | <span style="color:limegreen">11</span> | 12 | <span style="color:limegreen">13</span> | 14 | <span style="color:limegreen">15</span> |
+| 17 | <span style="color:limegreen">18</span> | 19 | <span style="color:limegreen">20</span> | <span style="color:cornflowerblue">21</span> | <span style="color:limegreen">22</span> |
+| 24 | <span style="color:limegreen">25</span> | 26 | <span style="color:limegreen">27</span> | 28 | <span style="color:limegreen">29</span> |
+
+<br />
 
 Maio
 
-| Seg | Ter | Qua | Qui | Sex |
-|---|---|---|---|---|
-| <span style="color:cornflowerblue">01</span> | <span style="color:limegreen">02</span> | 03 | <span style="color:limegreen">04</span> | 05 |
-| 08 | <span style="color:limegreen">09</span> | 10 | <span style="color:limegreen">11</span> | 12 |
-| 15 | <span style="color:limegreen">16</span> | 17 | <span style="color:limegreen">18</span> | 19 |
-| 22 | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> | 26 |
+| Seg | Ter | Qua | Qui | Sex | Sab |
+|---|---|---|---|---|---|
+| <span style="color:cornflowerblue">01</span> | <span style="color:limegreen">02</span> | 03 | <span style="color:limegreen">04</span> | 05 | <span style="color:limegreen">06</span> |
+| 08 | <span style="color:limegreen">09</span> | 10 | <span style="color:limegreen">11</span> | 12 | <span style="color:limegreen">13</span> |
+| 15 | <span style="color:limegreen">16</span> | 17 | <span style="color:limegreen">18</span> | 19 | <span style="color:limegreen">20</span> |
+| 22 | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> | 26 | <span style="color:limegreen">27</span> |
 | 29 | <span style="color:limegreen">30</span> | 31 |    |    |
+
+<br />
 
 Junho
 
-| Seg | Ter | Qua | Qui | Sex |
-|---|---|---|---|---|
-| | | | <span style="color:limegreen">01</span> | 02 |
-| 05 | <span style="color:limegreen">06</span> | 07 | <span style="color:cornflowerblue">08</span> | 09 |
-| 12 | <span style="color:limegreen">13</span> | 14 | <span style="color:limegreen">15</span> | 16 |
-| 19 | 20 | 21 | 22 | 23 |
-| 26 | 27 | 28 | 29 | 30 |
+| Seg | Ter | Qua | Qui | Sex | Sab
+|---|---|---|---|---|---|
+| | | | <span style="color:limegreen">01</span> | 02 | <span style="color:limegreen">03</span> |
+| 05 | <span style="color:limegreen">06</span> | 07 | <span style="color:cornflowerblue">08</span> | <span style="color:cornflowerblue">09</span> | <span style="color:cornflowerblue">10</span> |
+| 12 | <span style="color:limegreen">13</span> | 14 | <span style="color:limegreen">15</span> | 16 | <span style="color:limegreen">17</span> |
+| 19 | 20 | 21 | 22 | 23 | <span style="color:limegreen">24</span> |
+| 26 | 27 | 28 | 29 | 30 | |
 
+<br />
 
 *Legendas*
 
@@ -114,6 +128,8 @@ Disponível em: http://repositorio.novatech.net.br/site/index.html#/objeto/detal
 
 TERUEL, Evandro C. **HTML 5 Guia Prático**. 2a Ed. São Paulo: Érica, 2014.
 Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536519296/
+
+<br />
 
 **Complementar**
 

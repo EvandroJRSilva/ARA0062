@@ -40,69 +40,70 @@ Turmas: 1001, 1002 e 3045
 
 <br />
 
-Fevereivo
+**Fevereivo**
 
 | Seg | Ter | Qua | Qui | Sex | Sab |
 |---|---|---|---|---|---|
 | | | 01 | 02 | 03 | 04 |
 | 06 | 07 | 08 | 09 | 10 | 11 |
 | 13 | 14 | 15 | 16 | 17 | 18 |
-| <span style="color:cornflowerblue">20</span> | <span style="color:cornflowerblue">21</span> | <span style="color:cornflowerblue">22</span> | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> |
-| 27 | <span style="color:limegreen">28</span> | | | |
+| ![20Fev](https://placehold.co/23/cornflowerblue/white?text=20) | ![21Fev](https://placehold.co/23/cornflowerblue/white?text=21) | ![22Fev](https://placehold.co/23/cornflowerblue/white?text=22) | ![23Fev](https://placehold.co/23/limegreen/white?text=23) | 24 | ![25Fev](https://placehold.co/23/limegreen/white?text=25) |
+| 27 | ![28Fev](https://placehold.co/23/limegreen/white?text=28) | | | | |
 
 <br />
 
-Março
+**Março**
 
 | Seg | Ter | Qua | Qui | Sex | Sab |
 |---|---|---|---|---|---|
-| | | 01 | <span style="color:limegreen">02</span> | 03 | <span style="color:limegreen">04</span> |
-| 06 | <span style="color:limegreen">07</span> | 08 | <span style="color:limegreen">09</span> | 10 | <span style="color:limegreen">11</span> |
-| 13 | <span style="color:limegreen">14</span> | 15 | <span style="color:limegreen">16</span> | 17 | <span style="color:limegreen">18</span> |
-| 20 | <span style="color:limegreen">21</span> | 22 | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> |
-| 27 | <span style="color:limegreen">28</span> | 29 | <span style="color:limegreen">30</span> | 31 | |
+|    |    | 01 | ![02Mar](https://placehold.co/23/limegreen/white?text=02) | 03 | ![04Mar](https://placehold.co/23/limegreen/white?text=04) |
+| 06 | ![07Mar](https://placehold.co/23/limegreen/white?text=07) | 08 | ![09Mar](https://placehold.co/23/limegreen/white?text=09) | 10 | ![11Mar](https://placehold.co/23/limegreen/white?text=11) |
+| 13 | ![14Mar](https://placehold.co/23/limegreen/white?text=14) | 15 | ![16Mar](https://placehold.co/23/limegreen/white?text=16) | 17 | ![18Mar](https://placehold.co/23/limegreen/white?text=18) |
+| 20 | ![21Mar](https://placehold.co/23/limegreen/white?text=21) | 22 | ![23Mar](https://placehold.co/23/limegreen/white?text=23) | 24 | ![25Mar](https://placehold.co/23/limegreen/white?text=25) |
+| 27 | ![28Mar](https://placehold.co/23/limegreen/white?text=28) | 29 | ![30Mar](https://placehold.co/23/limegreen/white?text=30) | 31 | |
 
 <br />
 
-Abril
+**Abril**
 
 | Seg | Ter | Qua | Qui | Sex | Sab |
 |---|---|---|---|---|---|
-| | | | | | <span style="color:limegreen">01</span> |
-| 03 | <span style="color:limegreen">04</span> | 05 | <span style="color:limegreen">06</span> | <span style="color:cornflowerblue">07</span> | <span style="color:cornflowerblue">08</span> |
-| 10 | <span style="color:limegreen">11</span> | 12 | <span style="color:limegreen">13</span> | 14 | <span style="color:limegreen">15</span> |
-| 17 | <span style="color:limegreen">18</span> | 19 | <span style="color:limegreen">20</span> | <span style="color:cornflowerblue">21</span> | <span style="color:limegreen">22</span> |
-| 24 | <span style="color:limegreen">25</span> | 26 | <span style="color:limegreen">27</span> | 28 | <span style="color:limegreen">29</span> |
+|    |    |    |    |    | ![01Abr](https://placehold.co/23/limegreen/white?text=01) |
+| 03 | ![04Abr](https://placehold.co/23/limegreen/white?text=04) | 05 | ![06Abr](https://placehold.co/23/limegreen/white?text=06) | ![07Abr](https://placehold.co/23/cornflowerblue/white?text=07) | ![08Abr](https://placehold.co/23/cornflowerblue/white?text=08) |
+| 10 | ![11Abr](https://placehold.co/23/limegreen/white?text=11) | 12 | ![13Abr](https://placehold.co/23/limegreen/white?text=13) | 14 | ![15Abr](https://placehold.co/23/limegreen/white?text=15) |
+| 17 | ![18Abr](https://placehold.co/23/limegreen/white?text=18) | 19 | ![20Abr](https://placehold.co/23/limegreen/white?text=20) | ![21Abr](https://placehold.co/23/cornflowerblue/white?text=21) | ![22Abr](https://placehold.co/23/limegreen/white?text=22) |
+| 24 | ![25Abr](https://placehold.co/23/limegreen/white?text=25) | 26 | ![27Abr](https://placehold.co/23/limegreen/white?text=27) | 28 | ![29Abr](https://placehold.co/23/limegreen/white?text=29) |
 
 <br />
 
-Maio
+**Maio**
 
 | Seg | Ter | Qua | Qui | Sex | Sab |
 |---|---|---|---|---|---|
-| <span style="color:cornflowerblue">01</span> | <span style="color:limegreen">02</span> | 03 | <span style="color:limegreen">04</span> | 05 | <span style="color:limegreen">06</span> |
-| 08 | <span style="color:limegreen">09</span> | 10 | <span style="color:limegreen">11</span> | 12 | <span style="color:limegreen">13</span> |
-| 15 | <span style="color:limegreen">16</span> | 17 | <span style="color:limegreen">18</span> | 19 | <span style="color:limegreen">20</span> |
-| 22 | <span style="color:limegreen">23</span> | 24 | <span style="color:limegreen">25</span> | 26 | <span style="color:limegreen">27</span> |
-| 29 | <span style="color:limegreen">30</span> | 31 |    |    |
+| ![01Mai](https://placehold.co/23/cornflowerblue/white?text=01) | ![02Mai](https://placehold.co/23/limegreen/white?text=02) | 03 | ![04Mai](https://placehold.co/23/limegreen/white?text=04) | 05 | ![06Mai](https://placehold.co/23/limegreen/white?text=06) |
+| 08 | ![09Mai](https://placehold.co/23/limegreen/white?text=09) | 10 | ![11Mai](https://placehold.co/23/limegreen/white?text=11) | 12 | ![13Mai](https://placehold.co/23/limegreen/white?text=13) |
+| 15 | ![16Mai](https://placehold.co/23/limegreen/white?text=16) | 17 | ![18Mai](https://placehold.co/23/limegreen/white?text=18) | 19 | ![20Mai](https://placehold.co/23/limegreen/white?text=20) |
+| 22 | ![23Mai](https://placehold.co/23/limegreen/white?text=23) | 24 | ![25Mai](https://placehold.co/23/limegreen/white?text=25) | 26 | ![27Mai](https://placehold.co/23/limegreen/white?text=27) |
+| 29 | ![30Mai](https://placehold.co/23/limegreen/white?text=30) | 31 |    |    |
 
 <br />
 
-Junho
+**Junho**
 
 | Seg | Ter | Qua | Qui | Sex | Sab
 |---|---|---|---|---|---|
-| | | | <span style="color:limegreen">01</span> | 02 | <span style="color:limegreen">03</span> |
-| 05 | <span style="color:limegreen">06</span> | 07 | <span style="color:cornflowerblue">08</span> | <span style="color:cornflowerblue">09</span> | <span style="color:cornflowerblue">10</span> |
-| 12 | <span style="color:limegreen">13</span> | 14 | <span style="color:limegreen">15</span> | 16 | <span style="color:limegreen">17</span> |
-| 19 | 20 | 21 | 22 | 23 | <span style="color:limegreen">24</span> |
+|    |    |    | ![01Jun](https://placehold.co/23/limegreen/white?text=01) | 02 | ![03Jun](https://placehold.co/23/limegreen/white?text=03) |
+| 05 | ![06Jun](https://placehold.co/23/limegreen/white?text=06) | 07 | ![08Jun](https://placehold.co/23/cornflowerblue/white?text=21) | ![09Jun](https://placehold.co/23/cornflowerblue/white?text=09) | ![10Jun](https://placehold.co/23/cornflowerblue/white?text=10) |
+| 12 | ![13Jun](https://placehold.co/23/limegreen/white?text=13) | 14 | ![15Jun](https://placehold.co/23/limegreen/white?text=15) | 16 | ![17Jun](https://placehold.co/23/limegreen/white?text=17) |
+| 19 | 20 | 21 | 22 | 23 | ![24Jun](https://placehold.co/23/limegreen/white?text=24) |
 | 26 | 27 | 28 | 29 | 30 | |
 
 <br />
 
 *Legendas*
 
-<span style="color:limegreen">Aula</span> <span style="color:cornflowerblue">Feriado</span>
+![Aula](https://placehold.co/60x23/limegreen/white?text=Aula)
+![Feriado](https://placehold.co/60x23/cornflowerblue/white?text=Feriado)
 
 -----
 

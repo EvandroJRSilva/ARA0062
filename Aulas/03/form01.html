@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário 01</title>
+        <meta name="author" content="Evandro J.R. Silva">
+
+        <style>
+            form {
+                /* Centraliza o formulário*/
+                margin: 0 auto;
+                width: 400px;
+                /* Form outline */
+                padding: 1em;
+                border: 1px solid #ccc;
+                border-radius: 1em;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            form li + li {
+                margin-top: 1em;
+            }
+
+            label {
+                /* Tamanho uniforme e alinhamento */
+                display: inline-block;
+                width: 90px;
+                text-align: right;
+            }
+
+            input,
+            textarea {
+                /* Para garantir que todos os campos de texto têm as mesmas configurações de fonte
+                Por padrão, textareas têm fonte monoespaçada*/
+                font: 1em sans-serif;
+
+                /* Tamanho de área de texto uniforme */
+                width: 300px;
+                box-sizing: border-box;
+
+                /* Casa as bordas do campo de formulário */
+                border: 1px solid #999;
+            }
+
+            input:focus,
+            textarea:focus {
+                /* Ênfase adicional para elementos focalizados */
+                border-color: #000;
+            }
+
+            textarea {
+                /* Alinhar campos de múltiplas linhas com seus rótulos */
+                vertical-align: top;
+
+                /* Provendo espaço para digitação de texto */
+                height: 5em;
+            }
+
+            .button {
+                /* Alinha botões com os campos de texto*/
+                padding-left: 90px; /* mesmo tamanho dos elementos de rótulo (label) */
+            }
+
+            button {
+                /* Esta margem extra representa basicamente o mesmo espaço como o espaço entre os rótulos
+                e seus campos de texto */
+                margin-left: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/processamento-do-formulario" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="nome_usuario" />
+                </li>
+                <li>
+                    <label for="mail">e-mail:</label>
+                    <input type="email" id="mail" name="email_usuario">
+                </li>
+                <li>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg" name="mensagem_usuario">Escreva uma mensagem</textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Enviar</button>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>

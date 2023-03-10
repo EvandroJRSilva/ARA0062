@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link href="payment-form.css" rel="stylesheet">
+        <!--
+            O atributo rel define uma relação entre um recurso linkado e o documento corrente.
+            
+            É válido nos elementos link, a, area e form. Os valores suportados dependem do elemento onde o atributo
+            foi declarado.
+
+            Para mais informações, visite: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel
+        -->
+    </head>
+    <form method="post">
+        <h1>Formulário de Pagamento</h1>
+        <p>Os campos obrigatórios estão marcados com <strong><span aria-label="required">*</span></strong>.</p>
+        <section>
+            <h2>Informação para contato</h2>
+            <fieldset>
+                <legend>Título</legend>
+                <ul>
+                    <li>
+                        <label for="titulo_1">
+                            <input type="radio" id="titulo_1" name="titulo" value="Sr."> Senhor
+                        </label>
+                    </li>
+                    <li>
+                        <label for="titulo_2">
+                            <input type="radio" id="titulo_2" name="titulo" value="Sra."> Senhora
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p>
+                <label for="nome">
+                    <span>Nome: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" id="nome" name="nome_usuario">
+            </p>
+            <p>
+                <label for="email">
+                    <span>E-mail: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="email" id="email" name="email_usuario">
+            </p>
+            <p>
+                <label for="senha">
+                    <span>Senha: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="password" id="senha" name="senha">
+            </p>
+        </section>
+        <section>
+            <h2>Informação de Pagamento</h2>
+            <p>
+                <label for="cartao">
+                    <span>Bandeira: </span>
+                </label>
+                <select id="cartao" name="cartao_usuario">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="amex">American Express</option>
+                    <option value="hiper">Hiper Bompreço</option>
+                    <option value="credi">CrediShop</option>
+                </select>
+            </p>
+            <p>
+                <label for="numero">
+                    <span>Número: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="number" id="numero" name="numero_cartao">
+            </p>
+            <p>
+                <label for="data">
+                    <span>Expira:</span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" id="data" name="expiracao" placeholder="MM/AA" pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$">
+            </p>
+        </section>
+        <section>
+            <p>
+                <button type="submit">Validar o pagamento</button>
+            </p>
+        </section>
+    </form>
+</html>

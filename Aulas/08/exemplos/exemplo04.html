@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Exemplo de Aplicação do JavaScript</title>
+        <script>
+            function createParagraph() {
+                const para = document.createElement("p");
+                para.textContent = "You clicked the button!";
+                document.body.appendChild(para);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="createParagraph()">Clique em mim</button>
+    </body>
+</html>

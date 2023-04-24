@@ -20,6 +20,13 @@
       - [**Usando addEventListener no lugar**](#usando-addeventlistener-no-lugar)
       - [**Estratégias de carregamento de script**](#estratégias-de-carregamento-de-script)
     - [**Comentários**](#comentários)
+  - [**Primeiro aprofundamento em JavaScript**](#primeiro-aprofundamento-em-javascript)
+    - [**Setup inicial e variáveis**](#setup-inicial-e-variáveis)
+    - [**Funções**](#funções)
+    - [**Operadores**](#operadores)
+    - [**Blocos Condicionais e Eventos**](#blocos-condicionais-e-eventos)
+    - [**Loops**](#loops)
+    - [**Método focus**](#método-focus)
 
 ---
 
@@ -206,3 +213,174 @@ Não há garantia de que `jquery` seja carregado antes de `script2` ou `script3`
 Um código JS também pode conter comentários, os quais serão ignorados pelo navegador e não serão executados.
 
 Existem dois tipos de comentário: linha único e bloco. Comentários de linha única são precedidos por duas barras `//`, enquanto um bloco de comentários (os quais podem preencher várias linhas) são precedidos por `/*` e finalizados com `*/`.
+
+---
+
+## **Primeiro aprofundamento em JavaScript**
+
+Para ver melhor alguns conceitos e até mesmo treinar o pensamento computacional, vamos usar o Jogo de Advinhar o Número.
+
+O jogo consiste no seguinte: o programa escolhe um número aleatório entre 1 e 100, e o usuário tenta advinhar o número em até 10 tentativas. Se dirá ao usuário se ele acertou o número, ou então dirá se o número escolhido foi muito acima ou muito abaixo do número sorteado. Além disso o usuário poderá ver quais números ele já tentou anteriormente. O jogo será finalizado quando o usuário acertar o número, ou se errar em todas as de tentativas. Ao fim do jogo deve haver uma opção para começar um novo jogo.
+
+Ao pensarmos como programadores, podemos quebrar a descrição acima em várias subtarefas:
+
+1. Gerar um número aleatório entre 1 e 100.
+2. Guardar o número do turno em que o usuário está, começando com 1.
+3. Providenciar ao jogador alguma forma para que ele possa tentar adivinhar.
+4. Uma vez que o usuário tenha fornecido seu número, armazená-lo em algum lugar para que o usuário possa vê-lo depois.
+5. Verificar se o número fornecido pelo usuário é o sorteado aleatoriamente.
+6. Se sim
+   1. Mostrar uma mensagem de parabéns.
+   2. Impedir o usuário de inserir novos números.
+   3. Mostrar e permitir ao usuário a opção de reiniciar o jogo.
+7. Se não
+   1. Dizer ao jogador que ele errou e se o número inserido foi mais alto ou mais baixo.
+   2. Permiti-lo inserir um novo número.
+   3. Incrementar o turno em 1.
+8. Se não e a quantidade de turnos chegar ao limite
+   1. Dizer ao jogador que o jogo acabou.
+   2. Impedir o usuário de inserir mais números.
+   3. Mostrar e permitir a opção de reiniciar o jogo.
+  
+Uma vez que temos o programa planejado, vamos iniciar sua codificação com o JavaScript.
+
+<br>
+
+### **Setup inicial e variáveis**
+
+O programador tem duas opções nesse ponto. Iniciar o elemento `<script>` em um documento `HTML`, ou criar um novo arquivo `.js`. Em nosso [exemplo](exemplos/jogo_adivinhar.html), vamos utilizar a primeira opção.
+
+```js
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+
+const tentativas = document.querySelector('.tentativas');
+const lastResult = document.querySelector('.lastResult');
+const maiorOuMenor = document.querySelector('.maiorOuMenor');
+
+const guessSubmit = document.querySelector('.guessSubmit');
+const guessField = document.querySelector('.guessField');
+
+let tentativaCount = 1;
+let resetButton;
+```
+
+Lembrando da aula anterior, podemos declarar variáveis utilizando uma de três possíveis palavras reservadas: `var`, `let` e `const`. As variáveis `const` estão sendo usadas para guardar referências a partes da interface do usuário. O texto dentro desses elementos pode mudar, mas cada variável `const` sempre vai referenciar o mesmo elemento HTML ao qual foi inicializado.
+
+<br>
+
+### **Funções**
+
+As funções em JavaScript são blocos de código reutilizáveis. Ou seja, assim como em outras linguagens (como `C`), podemos escrever um determinado trecho de código apenas uma vez e ficar chamando-o sempre que for necessário.
+
+Para definir uma função em JS é necessário escrever a palavra reservada `function`, em seguida o nome da função e parênteses. O código reutilizável será escrito entre chaves. Neste momento acrescentamos ao nosso [exemplo](exemplos/jogo_adivinhar.html) o seguinte código:
+
+```js
+function checaNumero(){
+  alert('Uma função foi criada');
+}
+```
+
+E para testar seu funcionamento, basta chamar a função. Isso é feito com o código a seguir:
+
+```js
+checaNumero();
+```
+
+<br>
+
+### **Operadores**
+
+Os operadores são parte fundamental de toda linguagem de programação. Com os operadores podemos operar diversas ações sobre os dados disponíveis, como manipulação matemática ou manipulação de texto. A seguir a listagem de alguns operadores:
+
+Operadores Aritméticos
+
+| Operador | Nome | Exemplo |
+|---|---|---|
+| `+` | Adição | 1 `+` 1 |
+| `-` | Subtração | 10 `-` 1 |
+| `*` | Multiplicação | 2 `*` 3 |
+| `/` | Divisão | 10 `/` 2 |
+| `**` | Exponenciação | 3 `**` 2 |
+| `%` | Resto | 5 `%` 3 |
+
+Operadores Relacionais
+
+| Operador | Nome | Exemplo |
+|---|---|---|
+| `<` | Menor que | 2 `<` 3 |
+| `>` | Maior que | 3 `>` 2 |
+| `<=` | Menor ou igual a | 2 `<=` 3 |
+| `>=` | Maior ou igual a | 3 `>=` 2 |
+| `instanceof` | Instância de | Gol `instanceof` carro |
+| `in` | Contido em | 'Volkswagen' `in` Gol |
+
+Operadores de Comparação/Igualdade
+
+| Operador | Nome | Exemplo |
+|---|---|---|
+| `==` | Igual a | 2 `==` 2 |
+| `!=` | Diferente de | 2 `!=` 3 |
+| `===` | Igualdade estrita | 'olá' `===` 'olá' |
+| `!==` | Diferença estrita | '2' `!==` 2 |
+
+O operador de `igualdade estrita` e `diferença estrita` sempre considera operandos de diferentes tipos como diferentes.
+
+Operadores Lógicos
+
+| Operador | Nome | Exemplo |
+|---|---|---|
+| `&&` | E (AND) | x < y `&&` z > w |
+| `||` | OU (OR) | x > y `||` z < w |
+| `??` | Coalescência nula | 0 `??` 42 |
+| `condição ? seSim : seFalso` | Ternário | x < y ? 45 : 50 |
+
+O operador `Coalescência nula` retorna o operando do lado direito quando o operando do lado esquerdo é `null` ou `undefined`. Caso contrário, retorna o operando do lado esquerdo.
+
+Operadores de Assinalamento
+
+| Operador | Nome | Exemplo |
+|---|---|---|
+| `=` | Assinalamento | x `=` 2 |
+| `+=` | Assinalamento de adição | x `+=` 2 |
+| `-=` | Assinalamento de subtração | x `-=` 2 |
+| `*=` | Assinalamento de multiplicação | x `*=` 2 |
+| `/=` | Assinalamento de divisão | x `/=` 2 |
+| `%=` | Assinalamento de resto | x `%=` 2 |
+
+Esses não são todos os operadores da linguagem. Para ver mais deles, [clique aqui](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#assignment_operators).
+
+<br>
+
+### **Blocos Condicionais e Eventos**
+
+Blocos condicionais são trechos de códigos que serão executados caso alguma condição seja verdadeira. Na função `checaNumero` vamos adicionar alguns blocos.
+
+Após adicionarmos a lógica, precisamos fazer com que a função seja chamada. O melhor momento para chamar a função é quando o usuário clicar no botão `Adivinhar!`. Para isso precisamos adicionar um `evento`. Quando um evento ocorre, ele é percebido por um `ouvinte de evento` (`event listener`), o qual chama um `manipulador de eventos` (`event handler`), os quais consistem nos blocos de código que são executados em resposta a um evento.
+
+Para que nossa função possa ser executada, vamos adicionar a seguinte linha de código no nosso script:
+
+```js
+guessSubmit.addEventListener('click', checaNumero);
+```
+
+Adicionamos um ouvinte de evento ao botão, dizendo a ele para chamar a função caso seja clicado.
+
+Para finalizar, precisamos implementar a função `setGameOver`.
+
+Finalizada a implementação do jogo, duas coisas ficaram sem explicação: o `for` e o método `focus`.
+
+<br>
+
+### **Loops**
+
+Enquanto um bloco condicional é executado caso uma condição seja verdadeira, um bloco de repetição faz com que um trecho de código seja repetido diversas vezes, também de acordo com algum critério.
+
+A sintaxe utilizada é `for...of`, o qua itera sobre cada item de um determinado array. Comparando a outras linguagens, o `for...of` é equivalente ao `for...in` do `Python`, ou `foreach` do Java.
+
+É importante lembrar que o `for` padrão também existe, ou seja: `for (início; condição; expressão final)`.
+
+<br>
+
+### **Método focus**
+
+O método `focus` automaticamente põe o cursor do mouse no campo de texto do elemento `input` assim que a página é carregada. Isso faz com que o usuário consiga continuar escrevendo no campo *correto*.

@@ -25,6 +25,10 @@
                 color: white;
                 padding: 3px;
             }
+
+            #ui{
+                background-color: gold;
+            }
         </style>
     </head>
 
@@ -98,6 +102,7 @@
                 guessSubmit.disabled = true;
                 resetButton = document.createElement('button');
                 resetButton.textContent = 'Novo Jogo';
+                resetButton.id = "ui";
                 document.body.append(resetButton);
                 resetButton.addEventListener('click', resetGame);
             }
